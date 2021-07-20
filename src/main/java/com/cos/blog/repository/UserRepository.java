@@ -8,4 +8,12 @@ import org.springframework.data.jpa.repository.JpaRepository;
 // @Repository 생략이 가능하다
 public interface UserRepository extends JpaRepository<User, Integer> {
 
+
 }
+
+
+
+
+//     JPA Naming 쿼리
+//     SELECT * FROM user where username = ? AND password = ?;
+//    User findByUsernameAndPassword(String username, String password);
