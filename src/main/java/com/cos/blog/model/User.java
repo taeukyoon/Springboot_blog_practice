@@ -27,7 +27,7 @@ public class User {
     @Column(nullable = false, length = 30)
     private String username; //아이디
 
-    @Column(nullable = false, length = 100)
+    @Column(nullable = false, length = 200)
     private String password; // 12345 => 해쉬(암호화)
 
     @Column(nullable = false, length = 50)
