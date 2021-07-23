@@ -22,7 +22,7 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-    <a class="navbar-brand" href="/">태욱</a>
+    <a class="navbar-brand" href="/">짭스토리</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
     </button>
