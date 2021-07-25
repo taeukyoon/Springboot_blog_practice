@@ -16,7 +16,7 @@ let index ={
         //ajax default가 비동기 호출
         //ajax 통신을 이용해서 3개의 파라미터를 json으로 변경하여 insert 요청
         $.ajax({
-            type:"POST",
+            type:"PUT",
             url:"/auth/joinProc",
             data: JSON.stringify(data), //http body데이터
             contentType:"application/json; charset=utf-8", //MIME
